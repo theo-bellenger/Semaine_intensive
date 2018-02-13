@@ -8,17 +8,31 @@
 .main {
 	width: 960px;
 	margin: auto;
-	background: red;
+	padding: 20px;
 }
 li {
 	list-style: none;
+}
+a {
+	text-decoration: none;
 }
 
 /**********************************
 **********************************
 **********************************
-**************HEADER*************/
+**************HEADER*************
+**********************************
+**********************************/
 
+
+.réseaux img {
+	width: 20px;
+	height: 20px;
+}
+nav {
+	border-bottom: 1px solid #D28896;
+	color: #777777;
+}
 nav ul {
 	display: flex;
 	justify-content: space-around;
@@ -26,6 +40,7 @@ nav ul {
 nav ul li {
 	margin: 5px;
 }
+<<<<<<< HEAD
 
 
 
@@ -128,3 +143,14 @@ div.carousel-container{
 	width: 80%
 	border: 3px solid black;
 }
+=======
+nav ul li a {
+	color: #777777;
+	transition: 0.3s ease-in;
+}
+nav ul li a:hover {
+	color: #D28896;
+	opacity: 0.6;
+}
+
+>>>>>>> 5225a241af9a44c0ed8b373a7e7c3c4b6c3dce99
