@@ -2,11 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'butler'
 }
 
 .main {
 	width: 960px;
 	margin: auto;
+	color: #777777;
 }
 li {
 	list-style: none;
@@ -21,11 +23,72 @@ a {
 **************HEADER*************
 **********************************
 **********************************/
-
-
+.header a{
+	color: #777777;
+	transition: 0.3s ease-in;
+}
+.header a:hover {
+	color: #D28896;
+	opacity: 0.6;
+	cursor: pointer;
+}
+.réseaux {
+	display: flex;
+	margin: 10px;
+	position: absolute;
+	right: -100px;
+}
 .réseaux img {
 	width: 20px;
 	height: 20px;
+	margin: 2px;
+}
+
+.topSection {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.topSection_left {
+	display: flex;
+	align-items: center;
+}
+.topSection_left img {
+	width: 30px;
+}
+.topSection_left a, .topSection_left img, .topSection_left p {
+	margin: 5px;
+}
+.topSection_right {
+	display: flex;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 5px 0 5px;
+	border-color: #777777 transparent transparent transparent;
+}
+.english {
+	display: none;
+}
+.topSection_left a:hover .english {
+	display: block;
+}
+.topSection_right p {
+	margin: 10px;
+}
+
+.logo {
+	margin: auto;
+	width: 300px;
+}
+.logo img {
+	width: 300px;
+}
+.logo p {
+	text-align: center;
 }
 nav {
 	border-bottom: 1px solid #D28896;
@@ -36,17 +99,7 @@ nav ul {
 	justify-content: space-around;
 }
 nav ul li {
-	margin: 5px;
-	color: #777777;
-}
-nav ul li {
-	color: #777777;
-	transition: 0.3s ease-in;
-}
-nav ul li:hover {
-	color: #D28896;
-	opacity: 0.6;
-	cursor: pointer;
+	margin: 10px;
 }
 .sousMenu {
 	display: none;
