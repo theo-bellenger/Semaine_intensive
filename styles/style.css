@@ -41,15 +41,18 @@ nav ul li {
 	margin: 5px;
 	color: #777777;
 }
-nav ul li a {
+nav ul li {
 	color: #777777;
 	transition: 0.3s ease-in;
 }
-nav ul li a:hover {
+nav ul li:hover {
 	color: #D28896;
 	opacity: 0.6;
+	cursor: pointer;
 }
-
+.sousMenu {
+	display: none;
+}
 
 
 /* carousel =====>
