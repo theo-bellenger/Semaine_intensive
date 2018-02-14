@@ -39,9 +39,20 @@ nav ul li {
 	margin: 5px;
 	color: #777777;
 }
+<<<<<<< HEAD
 nav ul li a {
 	color: #777777;
 	transition: 0.3s ease-in;
+=======
+nav ul li {
+	color: #777777;
+	transition: 0.3s ease-in;
+}
+nav ul li:hover {
+	color: #D28896;
+	opacity: 0.6;
+	cursor: pointer;
+>>>>>>> parent of c009577... header logo et langue
 }
 nav ul li a:hover {
 	color: #D28896;
